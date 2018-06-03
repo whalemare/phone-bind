@@ -19,7 +19,7 @@ fun main(args: Array<String>) {
 
 fun getPhones(): List<String> {
     return listOf(
-        "79133702249",
-        "79684923023"
+        "79133702249"
+//        "79684923023"
     )
 }

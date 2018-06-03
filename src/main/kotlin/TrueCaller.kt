@@ -33,9 +33,10 @@ class TrueCaller(private val token: String) : Searchable {
         )
 
         val response = StringBuffer()
-        val inputLine = `in`.readLine()
+        var inputLine = `in`.readLine()
         while (inputLine != null) {
             response.append(inputLine)
+            inputLine = `in`.readLine()
         }
         `in`.close()
 
